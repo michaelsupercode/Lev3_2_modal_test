@@ -1,4 +1,4 @@
-*{
+* {
   border:0;
   margin:0;
   box-sizing: border-box;
@@ -6,11 +6,11 @@
   background-color: #322828;
 }
 
-main{
-  height:100vh;
+main {
+  height:95vh;
   position:relative;
 }
-article{
+article {
   position:absolute;
   left:50%;
   top:50%;
@@ -22,17 +22,17 @@ article{
   border-radius: 1em;
 }
 
-h1{
+h1 {
   color: white;
   text-decoration: underline;
   padding-bottom: 0.8em;
 }
-article p{
+article p {
   font-size: 1rem;
   color: white;
 }
 
-div{
+div {
   width:1em;
   height:1em;
   background-color: #fff;
@@ -41,7 +41,8 @@ div{
   top:9.5%;
   right:8%;
 }
-div div{
+
+div div {
   border-radius: 1em;
   width:1em;
   height:0.2em;
@@ -51,7 +52,8 @@ div div{
   background-color: #f00808;
   transform: rotate(-45deg);
 }
-div div:nth-child(2){
+
+div:nth-child(2) { 
   border-radius: 1em;
   width:1em;
   height:0.2em;
@@ -60,4 +62,8 @@ div div:nth-child(2){
   left:0%;
   background-color: #f00808;
   transform: rotate(45deg);
+}
+
+p {
+  color: white;
 }
